@@ -1,7 +1,5 @@
-Index: controllers/web_finger.js
-===================================================================
---- controllers.orig/web_finger.js
-+++ controllers/web_finger.js
+--- a/lib/controllers/web_finger.js
++++ b/lib/controllers/web_finger.js
 @@ -17,7 +17,7 @@ WebFinger.action('hostMeta', function(pa
      response = {
        'links': [ {
